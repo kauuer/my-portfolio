@@ -25,7 +25,7 @@ const Hero = () => {
             </Grid>
 
             <Grid item xs={12} md={8}>
-              <Typography color="primary" variant="h1" textAlign="center"> Kauê R. </Typography>
+              <Typography color="primary" variant="h1" textAlign="center"> Kauê Rodrigues </Typography>
               <Typography color="primary" variant="h2" textAlign="center"> I'm a Software Engineer </Typography>
               <Grid container display="flex" justifyContent="center">
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
