@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
       </Typography>
       <Typography variant="body1" align="center">
         {/* Lista suas habilidades principais */}
-        JavaScript, React, TypeScript, Python, Flutter, etc.
+        JavaScript, React, TypeScript, Python, Flutter.
       </Typography>
     </Box>
   );
