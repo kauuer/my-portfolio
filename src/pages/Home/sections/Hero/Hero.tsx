@@ -15,7 +15,7 @@ const Hero = () => {
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up('xs')]: {
-      paddingTop: "100px"
+      paddingTop: "100px",
     },
     [theme.breakpoints.up('md')]: {
       paddingTop: "0",
@@ -49,17 +49,17 @@ const Hero = () => {
               <Typography color="secondary" variant="h2" textAlign="center"> I'm a Software Engineer </Typography>
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">                  
-                  <StyledButton>
+                  <StyledButton onClick= {() => console.log("download")}>
                     <DownloadIcon />
-                    <Typography>
+                    <Typography component="a" href="/curriculo.pdf" download="Kaue_Rodrigues_CV.pdf" sx={{color: 'inherit', textDecoration: 'none', }} >
                       Download CV
                     </Typography>
                   </StyledButton>
                 </Grid>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                  <StyledButton>
+                  <StyledButton onClick= {() => console.log("download")}>
                     <EmailIcon />
-                      <Typography>
+                      <Typography component="a" href="mailto:iggcode@gmail.com" sx={{color: 'inherit', textDecoration: 'none', }}>
                         Contact me
                       </Typography>
                     </StyledButton>

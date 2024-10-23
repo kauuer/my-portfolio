@@ -1,4 +1,4 @@
-import { AppBar, MenuItem, Toolbar, styled } from "@mui/material"
+import { AppBar, Typography, Toolbar, styled } from "@mui/material"
 
 
 
@@ -14,9 +14,15 @@ const NavBar = () => {
       <>
         <AppBar position="absolute">
             <StyledToobar>
-            <MenuItem> About </MenuItem>
-            <MenuItem> Skills </MenuItem>
-            <MenuItem> Projects </MenuItem>
+            <Typography component="a" href="#about" sx={{ color: 'inherit', textDecoration: 'none' }}>
+              About
+            </Typography>
+            <Typography component="a" href="#skills" sx={{ color: 'inherit', textDecoration: 'none' }}>
+              Skills
+            </Typography>
+            <Typography component="a" href="#projects" sx={{ color: 'inherit', textDecoration: 'none' }}>
+              Projects
+            </Typography>
             </StyledToobar>
             
             
