@@ -8,7 +8,7 @@ const About: React.FC = () => {
         About Me
       </Typography>
       <Typography variant="body1" align="center" sx={{ maxWidth: '600px', margin: '0 auto' }}>
-        <h3>A melhor maneira de prever o futuro é criá-lo. <br /></h3>
+        <b>A melhor maneira de prever o futuro é criá-lo. <br /></b>
         Estudante de Eng. de Software e Desenvolvimento de Sistemas, possuo experiência em Front-end como voluntário e banco de dados como estágiario. <br /> <br />
         Sou apaixonado por inovação e estou buscando novos desafios para expandir minhas habilidades. Falo português nativo e possuo nível intermediário em inglês e espanhol.
       </Typography>
