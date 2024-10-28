@@ -51,7 +51,7 @@ const Hero = () => {
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">                  
                   <StyledButton onClick= {() => console.log("download")}>
                     <DownloadIcon />
-                    <Typography component="a" href="/curriculo.pdf" download="Kaue_Rodrigues_CV.pdf" sx={{color: 'inherit', textDecoration: 'none', }} >
+                    <Typography component="a" href="/my-portfolio/curriculo.pdf"  download="Kaue_Rodrigues_CV.pdf" sx={{color: 'inherit', textDecoration: 'none', }} >
                       Download CV
                     </Typography>
                   </StyledButton>
