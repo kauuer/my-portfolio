@@ -72,6 +72,23 @@ body {
 .typescript { color: #3178c6; }
 .python { color: #306998;}
 
+/* Efeito de flutuação */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.icon {
+  animation: float 2s ease-in-out infinite; /* Flutuar continuamente */
+}
+
 
 h1 {
   font-size: 3.2em;
