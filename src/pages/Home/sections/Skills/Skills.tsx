@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
-import { FaHtml5, FaCss3Alt, FaReact, FaPython } from 'react-icons/fa';
-import { SiTypescript, SiFlutter } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaReact, FaPython, FaGithub } from 'react-icons/fa';
+import { SiTypescript, SiFlutter, SiGit } from 'react-icons/si';
 import '../../../../index.css';
 
 
@@ -37,6 +37,14 @@ const Skills: React.FC = () => {
           <div className="skill">
             <SiFlutter title="Flutter" className="icon flutter" />
             <p>Flutter</p>
+          </div>
+          <div className="skill">
+            <FaGithub title="Git" className="icon git" />
+            <p>GitHub</p>
+          </div>
+          <div className="skill">
+            <SiGit title="Git" className="icon git" />
+            <p>Git</p>
           </div>
         </div>
       </Typography>
