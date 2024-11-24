@@ -1,5 +1,6 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif !important;
   line-height: 1.5;
   font-weight: 400;
 
@@ -33,6 +34,44 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  min-width: 120px;
+  flex:1 1 120px;
+}
+
+.icon {
+  font-size: 2rem; /* Tamanho dos ícones */
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Efeito de zoom */
+  color: #00aaff; /* Cor ao passar o mouse */
+}
+
+.html { color: #e34c26; }
+.css { color: #1572b6; }
+.flutter { color: #02569b; }
+.react { color: #61dafb; }
+.javascript { color: #f7df1e; }
+.typescript { color: #3178c6; }
+
 
 h1 {
   font-size: 3.2em;

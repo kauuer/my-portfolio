@@ -5,7 +5,7 @@ const Projects: React.FC = () => {
   return (
     <Box id="projects" sx={{ padding: '50px 0' }}>
       <Typography variant="h2" align="center">
-        Projects
+        Projetos
       </Typography>
       <Typography variant="body1" align="center">
         {/* Adicione uma breve descrição dos seus projetos */}
