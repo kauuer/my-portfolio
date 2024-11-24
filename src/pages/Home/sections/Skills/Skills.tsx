@@ -1,8 +1,8 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
-import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaReact, FaPython } from 'react-icons/fa';
 import { SiTypescript, SiFlutter } from 'react-icons/si';
-import '../../../../index.css'
+import '../../../../index.css';
 
 
 const Skills: React.FC = () => {
@@ -25,6 +25,10 @@ const Skills: React.FC = () => {
           <div className="skill">
             <SiTypescript title="TypeScript" className="icon typescript" />
             <p>TypeScript</p>
+          </div>
+          <div className="skill">
+            <FaPython title="Python" className="icon python" />
+            <p>Python</p>
           </div>
           <div className="skill">
             <FaReact title="React" className="icon react" />

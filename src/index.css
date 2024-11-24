@@ -29,10 +29,9 @@ html{
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: block; /* Ajuste para garantir que o conteúdo ocupe toda a largura */
 }
 
 .skills-icons {
@@ -42,7 +41,7 @@ body {
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
-  width: 100%;
+  width: auto;
 }
 
 .skill {
@@ -51,7 +50,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   text-align: center;
-  min-width: 120px;
+  min-width: 100px;
   flex:1 1 120px;
 }
 
@@ -71,6 +70,7 @@ body {
 .react { color: #61dafb; }
 .javascript { color: #f7df1e; }
 .typescript { color: #3178c6; }
+.python { color: #306998;}
 
 
 h1 {

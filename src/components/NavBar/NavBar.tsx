@@ -15,13 +15,13 @@ const NavBar = () => {
         <AppBar position="absolute">
             <StyledToobar>
             <Typography component="a" href="#about" sx={{ color: 'inherit', textDecoration: 'none' }}>
-              About
+              Sobre
             </Typography>
             <Typography component="a" href="#skills" sx={{ color: 'inherit', textDecoration: 'none' }}>
-              Skills
+              Habilidades
             </Typography>
             <Typography component="a" href="#projects" sx={{ color: 'inherit', textDecoration: 'none' }}>
-              Projects
+              Projetos
             </Typography>
             </StyledToobar>
             
