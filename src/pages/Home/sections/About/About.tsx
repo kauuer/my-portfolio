@@ -8,9 +8,11 @@ const About: React.FC = () => {
         Sobre
       </Typography>
       <Typography variant="body1" align="center" sx={{ maxWidth: '600px', margin: '0 auto' }}>
-        <b>A melhor maneira de prever o futuro é criá-lo. <br /></b>
-        Estudante de Eng. de Software, possuo experiência em Front-end como voluntário e banco de dados como estágiario. <br /> <br />
-        Sou apaixonado por inovação e estou buscando novos desafios para expandir minhas habilidades. Falo português nativo e possuo nível intermediário em inglês e espanhol.
+        Estudante de Engenharia de Software, possuo experiência em front-end como voluntário e qualidade de dados como estágiario. <br /> <br />
+        
+        Contribui para projetos que aprimoram funcionalidades e experiência do usuário. Em meus projetos pessoais,
+        destaco minha preferência por criar aplicações utilizando Flutter no desenvolvimento de aplicativos, e também de projetos para web com Front,
+        onde exploro tecnologias modernas para entregar soluções escaláveis e intuitivas. . Falo português nativo e possuo nível intermediário em inglês e espanhol.
       </Typography>
     </Box>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
 import { FaHtml5, FaCss3Alt, FaReact, FaPython, FaGithub } from 'react-icons/fa';
-import { SiTypescript, SiFlutter, SiGit } from 'react-icons/si';
+import { SiTypescript, SiFlutter, SiGit, SiJavascript } from 'react-icons/si';
 import '../../../../index.css';
 
 const Skills: React.FC = () => {
@@ -23,16 +23,20 @@ const Skills: React.FC = () => {
           <Typography variant="body2">CSS3</Typography>
         </div>
         <div className="skill">
+          <SiJavascript title="Javascript" className="icon javascript" />
+          <Typography variant="body2">JavaScript</Typography>
+        </div>
+        <div className="skill">
           <SiTypescript title="TypeScript" className="icon typescript" />
           <Typography variant="body2">TypeScript</Typography>
         </div>
         <div className="skill">
-          <FaPython title="Python" className="icon python" />
-          <Typography variant="body2">Python</Typography>
-        </div>
-        <div className="skill">
           <FaReact title="React" className="icon react" />
           <Typography variant="body2">React</Typography>
+        </div>
+        <div className="skill">
+          <FaPython title="Python" className="icon python" />
+          <Typography variant="body2">Python</Typography>
         </div>
         <div className="skill">
           <SiFlutter title="Flutter" className="icon flutter" />

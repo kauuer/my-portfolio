@@ -6,11 +6,17 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 
 const NavBar = () => {
-  const StyledToobar = styled(Toolbar)(() => ({
+  const StyledToobar = styled(Toolbar)(({ theme }) => ({
     display: "flex",
     justifyContent: "space-between", // Isso distribui os itens com mais flexibilidade
     alignItems: "center",
-    marginLeft: "200px"
+    marginLeft: "100px",
+    padding: "0 20px", // Padding padrão para espaços laterais
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "flex", // Coloca os itens em coluna no mobile
+      gap: "10px", // Espaçamento entre os itens
+      textAlign: "center", // Centraliza o texto
+    },
   }));
   
 
