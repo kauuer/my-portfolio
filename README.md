@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# Meu Portfólio - Kauê Rodrigues
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Aqui você pode conhecer um pouco mais sobre meus projetos, habilidades e experiências. Sou Kaue Rodrigues, um desenvolvedor apaixonado por tecnologia, com conhecimentos em **Python**, **Flutter**, **JavaScript** e **Desenvolvimento Web**.
 
-Currently, two official plugins are available:
+## Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sou estudante de **Engenharia de Software** e também estou cursando **Técnico em Desenvolvimento de Sistemas**. Atuei como **voluntário** na área de Front-End e estou buscando novos desafios para expandir meu conhecimento e habilidades. Minha jornada é autodidata e meu objetivo é criar soluções escaláveis e inovadoras, sempre prezando por um bom relacionamento com as equipes.
 
-## Expanding the ESLint configuration
+## Projetos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Você pode conferir todos os meus projetos no meu [GitHub](https://github.com/kauuer).
 
-- Configure the top-level `parserOptions` property like this:
+### Stack do Portfólio
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Este portfólio foi desenvolvido com as seguintes tecnologias:
+
+- **React** para a construção de componentes interativos e dinâmicos.
+- **TypeScript** para garantir a segurança de tipos no código.
+- **Vite** como bundler de desenvolvimento, proporcionando uma experiência rápida e eficiente.
+
+## Habilidades
+
+- **Frontend**: HTML, CSS, JavaScript, React, TypeScript, Angular
+- **Backend**: Python, Node.js
+- **Desenvolvimento Mobile**: Flutter
+- **Bancos de Dados**: MySQL, MongoDB
+- **Ferramentas e Tecnologias**: Git, GitHub
+
+## Como Usar
+
+Clone o repositório para visualizar o portfólio localmente:
+
+```bash
+git clone https://github.com/kauuer/my-portfolio.git
 ```
+## 📞 Contato
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Caso tenha dúvidas ou sugestões, entre em contato:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Autor**: Kauê Rodrigues  
+- **E-mail**: [iggcode@gmail.com](mailto:iggcode@gmail.com)
+- **GitHub**: [@kauuer](https://github.com/kauuer)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+### 🌟 Dê uma estrela!
+
+Se você gostou deste projeto, não esqueça de deixar uma ⭐ para apoiar o desenvolvimento!
