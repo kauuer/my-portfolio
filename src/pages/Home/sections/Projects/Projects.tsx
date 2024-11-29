@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
     {
       title: "Site Pet",
       description: (
-        <>Landing page responsiva <span style={{ fontWeight: "bold", color: "blue" }}>(01/2024)</span></>
+        <>Landing page responsiva. <span style={{ fontWeight: "bold", color: "blue" }}> Criado em 01/2024</span></>
       ),
       imageUrl: previewLanging, 
       link: "https://kauuer.github.io/site-pet/",
