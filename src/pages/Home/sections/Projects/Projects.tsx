@@ -8,7 +8,9 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: "Site Pet",
-      description: "Landing page responsiva.",
+      description: (
+        <>Landing page responsiva <span style={{ fontWeight: "bold", color: "blue" }}>(01/2024)</span></>
+      ),
       imageUrl: previewLanging, 
       link: "https://kauuer.github.io/site-pet/",
       githubLink: "https://github.com/kauuer/site-pet",
