@@ -11,7 +11,7 @@ let theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "Edu Australia VIC WA NT Hand Precursive"
+    fontFamily: "EB Garamond"
   }
 });
 
